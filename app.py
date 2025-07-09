@@ -16,6 +16,7 @@ external_stylesheets = [
 ]
 
 
+
 patients = pd.read_csv('IndividualDetails.csv')
 
 total = patients.shape[0]
